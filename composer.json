@@ -1,5 +1,5 @@
 {
-  "name": "urlEncode",
+  "name": "tinson/urlencode",
   "description": "Mock Java's urlEncode implementation by PHP",
   "authors" : [
     {
