@@ -31,5 +31,15 @@ http://tools.ietf.org/html/rfc3895
 ```
 
 
-#### JAVA-URLEncode标准
+## JAVA-URLEncode标准
 主要区别是*号的处理，PHP的编码为%2A，JAVA则保持*号不变。
+
+## 使用示例
+```
+<?php
+
+use UrlEncode\Java;
+
+$res = Java::urlEncode("~ -+.*");
+var_dump($res);
+```
